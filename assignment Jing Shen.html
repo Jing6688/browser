@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>html assignment</title>
@@ -8,20 +8,12 @@
 <body>
 	<h1>Jing Shen</h1>
 	<nav>
-		<table>
-	  <tbody>
-	    <tr>
-	      <td>
-	      	<a href="#Favorite Foods">One</a></td>
-
-	      <td><a href="#Achievements">Two</a></td>
-	      <td><a href="#More about me">Three</a></td>
-        </tr>
-      </tbody>
-</table>
+	    <a href="#FavoriteFood">One</a>
+	    <a href="#Achievements">Two</a>
+	    <a href="#MoreAboutMe">Three</a> 
 	</nav>
 	<section>
-		<h2 id="Favorite Foods">Favorite Foods</h2>
+		<h2 id="FavoriteFoods">Favorite Foods</h2>
 		<ul>
 		  <li>Dumplings</li>
 		  <li>Kiwifruits</li>
@@ -32,26 +24,27 @@
 		
 	<section>
 		<h2 id="Achievements">Achievements</h2>
-		<ul>
-		<li>Progress in this course</li>
-		<label for="Progress in this course"</label>
-		<progress id="Progress in this course" Value="100" max="100">100%</progress>
-		<li>Progress in this Specilization capstone</li>
-		<label for="Progress in this Specilization"</label>
-		<progress id="Progress in this Specilization" Value="25" max="100">25%</progress>
-		<li>Progress in life goals</li>
-		<label for="Progress in life goals"</label>
-		<progress id="Progress in life goals" Value="50" max="100">50%</progress>
-		</ul>
+		
+        <p>Progress in this Course (100%)
+		<progress Value="100" max="100"></progress></p>
+		<p>Progress in this Specilization capstone (20%)
+		<progress Value="20" max="100"></progress></p>
+		<p>Progress in life goals (50%)
+		<progress Value="50" max="100"></progress></p>
+
 	  </section>
 	
 	<section>
-		<h2 id="More about me">More about me</h2>
-		<details><ul>I am enjoying this course!</ul></details>
+		<h2 id="MoreAboutMe">More about me</h2>
+		<details>
+			<summary>What am I doing</summary>
+			<p>I am enjoying this course!</p>>
+		</details>
 	</section>
-</body>
-	<footer>
-		<img src="http://www.intro-webdesign.com/images/newlogo.png">
+
+<footer>
+		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo">
 	<p>This page was created by Jing & Colleen van Lent. To learn more about web designs, visit <a href="http://intro-webdesign.com">Intro to Web Design.</a></p>
 </footer>
+</body>
 </html>
